@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Info Desk</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar" href="./index.html">
+                   <img src="./graphics/logo.png" alt="logo" style="width:350px; height: 100px;">
+                 </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <a class="navbar-brand" href="./about_us.html" style="color: black;">About Us</a><br>
+              <a class="navbar-brand" href="./what_we_offer.html" style="color: black;">What we Offer</a><br>
+              <a class="navbar-brand" href="./get_involved.html" style="color: black;">Get Involved</a><br>
+              <a class="navbar-brand" href="./info_desk.html" style="color: black;">Info Desk</a><br>
+              <a class="navbar-brand" href="./services_for_staff.html" style="color: black;">Services for Staff</a>
+           </div> 
+          </nav>
+         <form class="form-inline" style="float: right;" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary" type="submit">Search</button>
+        </form> 
+        </div>
+
+<div class="container" style="margin-top: 50px;">
+    <h1 style="font-family: Helvetica Neue;">Info Desk</h1>
+    <div class="row">
+        <div class="col-lg-12" style="background-color:white;">
+          <button class="button" onclick="careers()" id="myBtn"><span>Careers</span></button>
+<p><span id="more"><span id="dots">...</span><br>
+    <table class="table table-bordered table-responsive-sm">
+        <thead>
+          <tr>
+            <th style="text-align: center;">Sr.No</th>
+            <th style="width: 150px; text-align: center;">Job Title</th>
+            <th style="text-align: center; width: 180px;">Specialities</th>
+            <th style="text-align: center; width: 350px;">Education and Experienced Required</th>
+            <th style="text-align: center;">Brief Job Responsibilities</th>
+          </tr>
+    </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Medical Director</td>
+            <td>Medical Staff Affairs Management</td>
+            <td><b>Basic Qualification:</b><br>
+                MBBS or equivalent valid PMDC registration<br>
+                <br>
+                <b>Post-Graduate<br>
+                Qualification:</b><br>
+                <br>
+                American Board Certified / Eligible or equivalent, MRCP / FRCS with CCST
+                Certification or equivalent, FCPS or
+                equivalent in respective specialty.
+                PhD in basic subjects with minimum 3 years post-FCPS/PhD experience. Additional administrative qualifications like MBA / MPH or equivalent in healthcare will be preferred.<br>
+                <br>
+                <b>Experience:</b><br>
+                <br>
+                Minimum 12 years of experience.
+                Preference will be given to clinicians with
+                leadership experience in international
+                healthcare organizations.</td>
+                <td>
+                    <ul>
+                        <li>Responsible for overall management of Medical Staff Affairs</li>
+                        <li>Responsible for ensuring liaison with the Consultants and other</li>
+                            <li>Medical / Nursing Staff for effective, efficient and smooth functioning of the Hospital.</li>
+                                <li>Oversees credentialing of all the Medical Staff.</li>
+                                    <li> Keeps a close liaison with Chief Operating Officer and other Senior Management for smooth functioning of Medical Staff Affairs.</li>
+                                        <li> Establishes policies and procedures for Medical Staff Affairs.</li>
+                                            <li> Confirm compliance of local laws, quality assurance, JCIA regulations and ensure that SOPs notified by the Hospital are properly implemented.</li>
+                                                <li>Recommend medical affairs budgets and allocation of funds based
+                    upon review of departmental performance, estimations and recommendations.</li>
+                </li>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </span></p>
+<script>
+function careers() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+   btnText.innerHTML = "Careers";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Careers"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12" style="background-color:white;">
+      <button class="button" onclick="tenders()" id="myBtn5"><span>Tenders</span></button>
+  <p><span id="more5"><span id="dots5"></span><br>
+      <a href=".//graphics/cctv.jpg" style="color: rgb(202, 0, 0);"> CCTV & IT Equipment</a><br>
+      <a href=".//graphics/advertisment.jpg" style="color: rgb(202, 0, 0);"> Advertisment - Public address system</a><br>
+      <a href=".//graphics/Elisa Reader-Tender Notice.jpg" style="color: rgb(202, 0, 0);"> Elisa Reader-Tender Notice</a><br>
+      <a href=".//graphics/Hepatitis B Vaccine-Tender Notice.jpg" style="color: rgb(202, 0, 0);"> Hepatitis B Vaccine-Tender Notice</a><br>
+      <a href=".//graphics/Hepatitis Medicine-Tender Notice.jpg" style="color: rgb(202, 0, 0);"> Hepatitis Medicine-Tender Notice</a><br>
+      <a href=".//graphics/Hepatitis Misc ENTACAVIR.jpg" style="color: rgb(202, 0, 0);"> Hepatitis Misc ENTACAVIR</a><br>
+      <a href=".//graphics/Infectious Hospital Waste Management-Tender Notice.jpg" style="color: rgb(202, 0, 0);"> Infectious Hospital Waste Management-Tender Notice</a><br>
+      <a href=".//graphics/NEW PQD Advertising Agency.pdf" style="color: rgb(202, 0, 0);"> NEW - PQD -Advertising Agency</a><br>
+      <a href=".//graphics/Power Cable-Tender Notice.jpg" style="color: rgb(202, 0, 0);"> Power Cable-Tender Notice</a><br>
+      <a href=".//graphics/Security Guard Services-Tender Notice-New.jpg" style="color: rgb(202, 0, 0);"> Security Guard Services-Tender Notice-New</a><br>
+      <a href=".//graphics/TENDER NOTICE - 50 KVA generator and ac.jpg" style="color: rgb(202, 0, 0);"> TENDER NOTICE - 50 KVA generator and ac</a><br>
+      <a href=".//graphics/Tender Notices - Marketing.jpg" style="color: rgb(202, 0, 0);"> Tender Notices - Marketing</a><br>
+    </span></p>
+  <script>
+  function tenders() {
+  var dots = document.getElementById("dots5");
+  var moreText = document.getElementById("more5");
+  var btnText = document.getElementById("myBtn5");
+  
+  if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Tenders";
+  moreText.style.display = "none";
+  } else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Tenders"; 
+  moreText.style.display = "inline";
+  }
+  }
+  </script>
+  </div>
+  </div>
+  </div>
+
+
+<div class="container" style="margin-top: 130px;">
+    <div class="row">
+      <div class="col-sm-12" style="background-color:rgb(202, 0, 0);  text-align: center;">
+        <a href="./info_desk.html" style="color: white;">TENDERS</a>   |
+        <a href="./info_desk.html" style="color: white;">CAREERS</a>   |
+        <a href="./contact_us.html" style="color: white;">CONTACT US</a>   |
+        <a href="./sitemapp.html" style="color: white;">SITEMAP</a>   
+      </div>
+    </div>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8" style="background-color:rgb(0, 0, 0); color: white;">
+        <p>Copyright © Pakistan Kidney and Liver Institute and Research Center, Government of The Punjab.<br /> Powered by: Punjab Information Technology Board</p>
+      </div>
+        <div class="col-sm-4" style="background-color:rgb(0, 0, 0); font-size: 30px;">
+          <a href="#" class="fa fa-facebook-square" style="color: rgb(146, 145, 145);"></a>
+          <a href="#" class="fa fa-twitter-square" style="color: rgb(146, 145, 145);"></a>
+            <a href="#" class="fa fa-youtube-play" style="color: rgb(146, 145, 145);"></a><br>
+            <a href="#" style="color: white; font-size: 13px;">Follow Us Here</a>
+        </div>
+      </div>
+  </div>
+</body>
+</html> 

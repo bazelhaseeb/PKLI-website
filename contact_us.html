@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar" href="./index.html">
+                   <img src="./graphics/logo.png" alt="logo" style="width:350px; height: 100px;">
+                 </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <a class="navbar-brand" href="./about_us.html" style="color: black;">About Us</a><br>
+              <a class="navbar-brand" href="./what_we_offer.html" style="color: black;">What we Offer</a><br>
+              <a class="navbar-brand" href="./get_involved.html" style="color: black;">Get Involved</a><br>
+              <a class="navbar-brand" href="./info_desk.html" style="color: black;">Info Desk</a><br>
+              <a class="navbar-brand" href="./services_for_staff.html" style="color: black;">Services for Staff</a>
+           </div> 
+          </nav>
+         <form class="form-inline" style="float: right;" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary" type="submit">Search</button>
+        </form> 
+        </div>
+    <div class="container" style="margin-top: 50px;">
+        <h1 style="font-family: Helvetica Neue;">Contact Us</h1>
+        <div class="row">
+            <div class="col-lg-12" style="background-color:white;">
+              <button class="button" onclick="ouroffices()" id="myBtn4"><span>Our Offices</span></button>
+          <p><span id="more4"><span id="dots4"></span>
+            <b style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;">Lahore</b><br>
+            Pakistan Kidney and Liver Institute & Research Center (PKLI & RC)
+            30 E - 1, Gulberg III, Near Gaddafi Stadium, Lahore
+            <br>
+            Phone:	042 - 35775023<br>
+            Email:	<a href="info@pkli.org.pk"> info@pkli.org.pk</a>
+            <br>
+            <br>
+            <br>
+            <b style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;">Lahore</b><br>
+          PKLI Hepatitis Prevention & Treatment Clinic (HPTC)
+          1 PKLI Avenue, Opposite DHA Phase 6, Knowledge City, Lahore
+          <br>	 
+          Mobile:	
+          0300-0808885, 0300-0808886, 0300-0808887
+          <br>
+          <br>
+          <br>
+          <b style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;">Islamabad</b><br>
+          Pakistan Kidney Institute / Shifa Foundation
+          Shifa International Hospitals Ltd. Sector H-8/4, Islamabad
+          <br>
+          Phone:	051 - 8463666, 8463038, 8463169, 8463525, 8463294, 4100397<br>
+          Fax:	051 - 4437146<br>
+          Email: <a href="pki_shifa1@yahoo.com">	pki_shifa1@yahoo.com</a><br>
+          Website:	<a href="www.pki.com.pk">www.pki.com.pk</a>
+          </span></p>
+          <script>
+          function ouroffices() {
+          var dots = document.getElementById("dots4");
+          var moreText = document.getElementById("more4");
+          var btnText = document.getElementById("myBtn4");
+          
+          if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Our Offices";
+          moreText.style.display = "none";
+          } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Our Offices"; 
+          moreText.style.display = "inline";
+          }
+          }
+          </script>
+          </div>
+          </div>
+          </div>
+          <div class="container" style="margin-top: 60px;">
+            <div class="row">
+              <div class="col-sm-12" style="background-color:rgb(202, 0, 0);  text-align: center;">
+                <a href="./info_desk.html" style="color: white;">TENDERS</a>   |
+                <a href="./info_desk.html" style="color: white;">CAREERS</a>   |
+                <a href="./contact_us.html" style="color: white;">CONTACT US</a>   |
+                <a href="./sitemapp.html" style="color: white;">SITEMAP</a>   
+              </div>
+            </div>
+            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8" style="background-color:rgb(0, 0, 0); color: white;">
+                <p>Copyright © Pakistan Kidney and Liver Institute and Research Center, Government of The Punjab.<br /> Powered by: Punjab Information Technology Board</p>
+              </div>
+                <div class="col-sm-4" style="background-color:rgb(0, 0, 0); font-size: 30px;">
+                  <a href="#" class="fa fa-facebook-square" style="color: rgb(146, 145, 145);"></a>
+                  <a href="#" class="fa fa-twitter-square" style="color: rgb(146, 145, 145);"></a>
+                    <a href="#" class="fa fa-youtube-play" style="color: rgb(146, 145, 145);"></a><br>
+                    <a href="#" style="color: white; font-size: 13px;">Follow Us Here</a>
+                </div>
+              </div>
+          </div>
+    </body>
+    </html> 

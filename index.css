@@ -1,0 +1,159 @@
+/*navbar*/
+.navbar{
+  background-color: rgb(255, 255, 255);
+}
+.navbar-brand:hover{
+background-color: rgb(202, 0, 0);
+}
+
+                /*hoover button*/
+.button {
+  border-radius: 4px;
+  background-color: rgb(202, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:  5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#more
+{display: none;}
+#more2
+{display: none;}    
+#more3
+{display: none;} 
+#more4
+{display: none;}
+#more5
+{display: none;}
+
+       /*transistion */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.column{
+    margin: 14px;
+    width: 200px;
+    height: 200px;
+  transition: width 1s, height 1s, transform 2s;
+}
+.column:hover{
+    width: 150px;
+  height: 150px;
+  transform: rotate(360deg)
+}
+          /*section*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+        /*overlay*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b60c00;
+}
+
+.container:hover .overlay {
+  opacity: 3;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*responsive image*/
+
+.image1{
+  width: 100%;
+  height: 400px;
+  background-image: url('./graphics/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+h3{
+  background-color: rgba(255, 36, 36, 0.692);
+  margin-right: 610px; 
+  margin-left: 15px;
+}
+
+.image2{
+  height: 280px;
+  width: 100%;
+  background-image: url('./graphics/donate.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+              
